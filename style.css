@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    width: 100%;
+    text-align: center;
+   background: -moz-linear-gradient(hsl(214, 82%, 48%), #86aad9, #2f62a3, hsl(214, 82%, 48%));
+
+   
+}
+body img{
+box-shadow: 5px 0px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 170px;
+    border: solid black 3px;
+   background-image: url("images/ciel2.jpeg");
+   background-size: 100%;
+    background-color: blue;
+     
+}
+
+.intro h1{
+    font-size: 377%;
+    font-family: 'Volkhov', serif;
+    box-shadow: 5px 0px 5px 1px rgba(0, 0, 0, .5);
+    padding: 15px;
+}
+
+/*.intro img{
+    width: 15%;
+    z-index: 3;
+}*/
+
+
+.teaser{
+    display: flex;;
+    margin-bottom: 55px;
+    justify-content: center;
+}
+
+video {
+    width: 45%;
+}
+
+.film1{
+    display: flex;
+   padding-top: 2%; 
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.film2{
+    display: flex;
+    padding-top: 2%; 
+    margin-left: 50px;
+   margin-right: 50px;
+}
+.film3{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 2%; 
+    margin-left: 50px;
+   margin-right: 50px;
+}
+
+.film4{
+    display: flex;
+    padding-top: 2%; 
+    margin-left: 50px;
+   margin-right: 50px;
+  
+
+}
+.film4 img{
+    padding-bottom: 0;
+}
+
+
+
+.text1, .text2, .text3, .text4{
+    width: 75%;
+   border: 3px solid black;
+    background-color: blueviolet;
+ text-align: left;
+ 
+}    
+
+body h1, h2, h3, h4 {
+    padding-left: 20px;
+}
+
+body .text1, .text2, .text3, .text4{
+    padding-left: 35px;
+}
+
+
+.photo1, .photo2, .photo3, .photo4{
+    width: 50%;
+    background-image: url("images/ciel2.jpeg");
+    background-size: 100%;
+    border: 3px solid black;
+    padding-top: 5px;
+    
+
+}
+footer{
+    width: 100%;
+}
+
